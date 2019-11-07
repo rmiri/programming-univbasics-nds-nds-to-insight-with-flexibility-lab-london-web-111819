@@ -111,7 +111,7 @@ def movies_with_directors_set(source)
     newArray[i][array_i][:director_name] = source[:name]
 
     end
-    
+  end
   end
   newArray
 end
