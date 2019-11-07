@@ -109,7 +109,7 @@ def movies_with_directors_set(source)
 #now what I need to do is to add the director name to the array of movies.
     while array_i < newArray.length do
     newArray[i][array_i][:director_name] = source[:name]
-    array_i += 1
+    
     end
     i += 1
   end
